@@ -16,12 +16,12 @@ clean-targets:
   - "dbt_packages"
 
 models:
-  frank_dbt_workshop:
-      example:
-          schema: example 
-     silver:
-          schema: silver
-          materialized: table
-      gold:
-          schema: gold
-          materialized: view
+  frank_dbt_project:
+    example:
+      +schema: example 
+    silver:
+      +schema: silver
+      +materialized: table
+    gold:
+      +schema: gold
+      +materialized: view
