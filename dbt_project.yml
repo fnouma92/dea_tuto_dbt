@@ -9,6 +9,14 @@ config-version: 2
 # This setting configures which "profile" dbt uses for this project.
 profile: 'default'
 
+<<<<<<< HEAD
+vars:
+   target_db: GLUEDB
+   target_schema: PUBLIC
+   stage_name: GLUEDB.PUBLIC.GLUE_S3_STAGE
+
+=======
+>>>>>>> 2340328ec01892c87e92ddee33585d9d56a2c2ed
 # These configurations specify where dbt should look for different types of files.
 # The `model-paths` config, for example, states that models in this project can be
 # found in the "models/" directory. You probably won't need to change these!
